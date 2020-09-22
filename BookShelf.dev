@@ -19,7 +19,7 @@ ObjectOutput=
 LogOutput=
 LogOutputEnabled=0
 OverrideOutput=0
-OverrideOutputName=
+OverrideOutputName=BookShelf.exe
 HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
@@ -82,6 +82,16 @@ BuildCmd=
 
 [Unit4]
 FileName=Shelf.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit5]
+FileName=Bshelf.h
 CompileCpp=1
 Folder=
 Compile=1
